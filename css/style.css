@@ -307,11 +307,11 @@ a {
     font-family: "Roboto";
 }
 
-.news_entry {
+.news__item {
     padding-bottom: 30px;
 }
 
-.news_entry:last-child {
+.news__item:last-child {
     padding-bottom: 0;
 }
 
