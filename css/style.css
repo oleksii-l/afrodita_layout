@@ -65,7 +65,7 @@ ul li {
     display: inline-block;
 }
 
-p, div, h2 {
+p, h2 {
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -86,13 +86,14 @@ a {
 }
 
 .wrapper {
-    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     
 }
 
 .header {
     background-color: black;   
-    display: inline-block; 
     padding: 11px 0;
 }
 
@@ -129,6 +130,7 @@ a {
 .nav__title {
     font-weight: bold;
     font-size: 12px;
+    text-transform: uppercase;;
 }
 
 .nav__url {
@@ -145,6 +147,10 @@ a {
     vertical-align: middle;
     background: center center / contain no-repeat;
     margin-right: 16px;
+}
+
+.nav__title:hover {
+    color: #f89513;
 }
 
 .nav__title_main-icon:before {
@@ -199,7 +205,7 @@ a {
 }
 
 /* Banner */
-.main_banner {
+.main__banner {
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -212,6 +218,7 @@ a {
     width: 100%;
     background-color: #131415;
     color: white;
+    padding-top: 65px;
 }
 
 .features__title {
@@ -219,7 +226,6 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 65px;
     padding: 0;
     width: 100%;
 }
@@ -232,7 +238,7 @@ a {
 }
 
 .features__item {
-    width: 208px;
+    width: 215px;
     vertical-align: top;
     
 }
@@ -250,7 +256,15 @@ a {
     height: 70px;
     border-radius: 50%;
     background-color: #f89513;
-    padding-top: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.feature__pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -288,9 +302,9 @@ a {
 }
 
 .news-content__block {
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .news-content__title {
@@ -305,6 +319,7 @@ a {
     width: 79%;
     text-align: left;
     font-family: "Roboto";
+    display: inline-block;
 }
 
 .news__item {
@@ -332,11 +347,13 @@ a {
 .top-news {
     width: 20%;
     vertical-align: top;
+    display: inline-block;
 }
 
 .news {
     width: 70%;
     vertical-align: top;
+    display: inline-block;
     
 }
 
