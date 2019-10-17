@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'GoraFree';
-    src: url('/css/fonts/gora-free-webfont.woff2') format('woff2'),
-         url('/css/fonts/gora-free-webfont.woff') format('woff');
+    src: url('./fonts/gora-free-webfont.woff2') format('woff2'),
+         url('./fonts/gora-free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('/css/fonts/opensans-bold-webfont.woff2') format('woff2'),
-         url('/css/fonts/opensans-bold-webfont.woff') format('woff');
+    src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'open_sans';
-    src: url('/css/fonts/opensans-light-webfont.woff2') format('woff2'),
-         url('/css/fonts/opensans-light-webfont.woff') format('woff');
+    src: url('./fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-light-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'open_sans';
-    src: url('/css/fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
-         url('/css/fonts/opensans-lightitalic-webfont.woff') format('woff');
+    src: url('./fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-lightitalic-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: initial;
 
@@ -191,4 +191,11 @@ a {
     color: #f89513;
     font-size: 14px;
     text-decoration: underline;
+}
+
+/* Banner */
+.main_banner {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
