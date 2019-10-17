@@ -68,16 +68,31 @@ ul li {
 p, div {
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
 
 .wrapper {
     margin: 0 auto;
-    width: 1100px;
+    
 }
 
 .header {
-    background-color: black;    
+    background-color: black;   
+    display: inline-block; 
+    padding: 11px 0;
+}
+
+.container__header{
+    padding-right: 22px;;
 }
 
 .logo {
@@ -85,15 +100,25 @@ p, div {
     font-size: 18px;
     color: #f89513;
     display: inline-block;
-    padding: 32px, 20px;
-    margin-left: 20px;
-    text-transform: uppercase;;
+    margin-left: 19px;
+    text-transform: uppercase;
+    width: 15%;
 }
 
+/* Navigation */
 .nav {
     color: white;
     display: inline-block;
-    margin-left: 200px;
+    text-align: center;
+    width: 67%;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
 }
 
 .nav__title {
@@ -109,11 +134,51 @@ p, div {
     display: inline-block;
 }
 
+.nav__title:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background: center center / contain no-repeat;
+    margin-right: 16px;
+}
+
+.nav__title_main-icon:before {
+    background-image: url(/img/main_icon.png);
+    width: 19px;
+    height: 14px;
+}
+
+
+.nav__title_feed-icon:before {
+    background-image: url(/img/feed_icon.png);
+    width: 20px;
+    height: 18px;
+}
+
+.nav__title_service-icon:before {
+    background-image: url(/img/service_icon.png);
+    width: 19px;
+    height: 14px;
+}
+
+.nav__title_main-icon:hover:before {
+    background-image: none;
+}
+
+.nav__title_feed-icon:hover:before {
+    background-image: none;
+}
+
+.nav__title_service-icon:hover:before {
+    background-image: none;
+}
+
+/* Contacts */
 .contacts {
     display: inline-block;
-    /* height: 100%; */
-    padding-top: 20px;
-    margin-left: 190px;
+    vertical-align: middle;
+    text-align: right;
+    width: 15%;
 }
 
 .contacts__phone {
@@ -125,4 +190,5 @@ p, div {
 .contacts__work-hours {
     color: #f89513;
     font-size: 14px;
+    text-decoration: underline;
 }
