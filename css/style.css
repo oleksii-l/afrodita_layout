@@ -143,20 +143,20 @@ a {
 }
 
 .nav__title_main-icon:before {
-    background-image: url(/img/main_icon.png);
+    background-image: url(../img/main_icon.png);
     width: 19px;
     height: 14px;
 }
 
 
 .nav__title_feed-icon:before {
-    background-image: url(/img/feed_icon.png);
+    background-image: url(../img/feed_icon.png);
     width: 20px;
     height: 18px;
 }
 
 .nav__title_service-icon:before {
-    background-image: url(/img/service_icon.png);
+    background-image: url(../img/service_icon.png);
     width: 19px;
     height: 14px;
 }
