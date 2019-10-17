@@ -1,16 +1,15 @@
 @font-face {
-    font-family: 'gora_free';
-    src: url('./fonts/gora-free-webfont.woff2') format('woff2'),
-         url('./fonts/gora-free-webfont.woff') format('woff');
+    font-family: 'GoraFree';
+    src: url('/css/fonts/gora-free-webfont.woff2') format('woff2'),
+         url('/css/fonts/gora-free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'open_sans';
-    src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-bold-webfont.woff') format('woff');
+    src: url('/css/fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('/css/fonts/opensans-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -19,8 +18,8 @@
 
 @font-face {
     font-family: 'open_sans';
-    src: url('./fonts/opensans-light-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-light-webfont.woff') format('woff');
+    src: url('/css/fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('/css/fonts/opensans-light-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
 
@@ -29,8 +28,8 @@
 
 @font-face {
     font-family: 'open_sans';
-    src: url('./fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-lightitalic-webfont.woff') format('woff');
+    src: url('/css/fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('/css/fonts/opensans-lightitalic-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: initial;
 
@@ -38,7 +37,7 @@
 
 html {
     font-family: 'open_sans', sans-serif;
-    font-size: 18pt;
+    font-size: 18px;
     height:100%;
     margin: 0; 
     padding: 0; 
@@ -71,46 +70,43 @@ p, div {
     padding: 0;
 }
 
-.clearfix:after {
-    content:'';
-    display: table;
-    clear: both;
-    width: 100%;
-}
 
 .wrapper {
     margin: 0 auto;
-    position: relative;
+    width: 1100px;
 }
 
 .header {
     background-color: black;    
-    min-height: 76px;
 }
 
 .logo {
-    font-family: 'gora_free';
+    font-family: 'GoraFree';
+    font-size: 18px;
     color: #f89513;
     display: inline-block;
     padding: 32px, 20px;
     margin-left: 20px;
-    /* height: 100%; */
+    text-transform: uppercase;;
 }
 
 .nav {
     color: white;
     display: inline-block;
     margin-left: 200px;
-    /* height: 100%; */
 }
 
 .nav__title {
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 12px;
 }
 
 .nav__url {
     color: white;
+}
+
+.nav__img {
+    display: inline-block;
 }
 
 .contacts {
@@ -122,11 +118,11 @@ p, div {
 
 .contacts__phone {
     color: white;
-    font-size: 21pt;
+    font-size: 21px;
     font-weight: bold;
 }
 
 .contacts__work-hours {
     color: #f89513;
-    font-size: 14pt;
+    font-size: 14px;
 }
