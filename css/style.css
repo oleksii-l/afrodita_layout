@@ -323,19 +323,25 @@ a {
 }
 
 .news__item {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .news__item:last-child {
     padding-bottom: 0;
 }
 
-.news_entry::after {
+.news__item::after {
     content: '';
     display: block;
     border-bottom: solid #f5f5f5;
     width: 85%;
     text-align: right;
+}
+
+.news__item:last-child:after {
+    content: '';
+    display: block;
+    border-bottom: none;
 }
 
 .news__img {
@@ -354,7 +360,6 @@ a {
     width: 70%;
     vertical-align: top;
     display: inline-block;
-    
 }
 
 .news__date {
@@ -373,9 +378,16 @@ a {
     font-weight: lighter;
 }
 
+.top-news__item {
+    margin-bottom: 20px;
+}
+
+.top-news__item:last-child {
+    margin-bottom: 0;
+}
+
 .top-news__img {
     width: 160px;
-    margin-bottom: 20px;
 }
 
 .top-news__title{
@@ -403,6 +415,7 @@ a {
 .pagination__position {   
     font-weight: lighter;
     color: #656464;
+    display: inline-block;
 }
 
 .pagination__position_noactive {   
@@ -413,6 +426,10 @@ a {
 .pagination__btn-prev{
     
     font-size: 14px;
+}
+
+.pagination__pager {
+    display: inline-block;
 }
 
 .pagination__item {
@@ -444,6 +461,10 @@ a {
     color: #221f1f;
 }
 
+.pagination__url:hover {
+    color: #f89513;
+}
+
 .pagination__url_active {
     color: white;
     vertical-align: middle;
@@ -459,8 +480,9 @@ a {
 }
 
 .logo_footer {
-    width: 58%;
+    width: 56%;
     text-align: center;
+    display: inline-block;
 }
 
 .footer__desc {
@@ -469,6 +491,7 @@ a {
     width: 24%;
     text-align: left;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .footer__company{
@@ -487,6 +510,8 @@ a {
     font-weight: bold;
     font-size: 14px;
     text-align: left;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .social__item {
@@ -495,7 +520,19 @@ a {
     height: 21px;
     border-radius: 50%;
     text-align: center;
+    margin-right: 5px;
+    position: relative;
+}
 
+.social__pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social__item:last-child {
+    margin-right: 0;
 }
 
 .social__item_yellow {
