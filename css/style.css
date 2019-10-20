@@ -476,7 +476,7 @@ a {
 }
 
 .social {
-    width: 15%;
+    width: 17%;
     text-align: right;
     font-weight: bold;
     font-size: 14px;
@@ -495,6 +495,10 @@ a {
     position: relative;
 }
 
+.social__item:hover {
+    background-color: #f89513;
+}
+
 .social__pic {
     position: absolute;
     top: 50%;
@@ -504,8 +508,4 @@ a {
 
 .social__item:last-child {
     margin-right: 0;
-}
-
-.social__item_yellow {
-    background-color: #f89513;
 }
