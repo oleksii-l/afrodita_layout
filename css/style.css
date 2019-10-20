@@ -1,42 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic');
+
 @font-face {
-    font-family: 'GoraFree';
-    src: url('./fonts/gora-free-webfont.woff2') format('woff2'),
-         url('./fonts/gora-free-webfont.woff') format('woff');
+    font-family: "GoraFree";
+    src: url('fonts/Gora-Free.woff2') format('woff2'),
+         url('fonts/gora-free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'open_sans';
-    src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'open_sans';
-    src: url('./fonts/opensans-light-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-light-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'open_sans';
-    src: url('./fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
-         url('./fonts/opensans-lightitalic-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: initial;
-
-}
 
 html {
-    font-family: 'open_sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     height:100%;
     margin: 0; 
@@ -173,15 +147,15 @@ a {
 }
 
 .nav__title_main-icon:hover:before {
-    background-image: none;
+    background-image: url(../img/main_icon_yellow.png);
 }
 
 .nav__title_feed-icon:hover:before {
-    background-image: none;
+    background-image: url(../img/feed_icon_yellow.png);
 }
 
 .nav__title_service-icon:hover:before {
-    background-image: none;
+    background-image: url(../img/service_icon_yellow.png);
 }
 
 /* Contacts */
@@ -219,6 +193,7 @@ a {
     background-color: #131415;
     color: white;
     padding-top: 65px;
+    padding-bottom: 100px;
 }
 
 .features__title {
@@ -234,7 +209,6 @@ a {
     width: 100%;
     text-align: center;
     margin-top: 60px;
-    padding-bottom: 100px;
 }
 
 .features__item {
@@ -316,33 +290,25 @@ a {
 }
 
 .news-tape {
-    width: 79%;
+    width: 73%;
     text-align: left;
     font-family: "Roboto";
     display: inline-block;
+    margin-right: 69px;
 }
 
 .news__item {
     margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f5f5f5;
 }
 
 .news__item:last-child {
     padding-bottom: 0;
-}
-
-.news__item::after {
-    content: '';
-    display: block;
-    border-bottom: solid #f5f5f5;
-    width: 85%;
-    text-align: right;
-}
-
-.news__item:last-child:after {
-    content: '';
-    display: block;
+    margin-bottom: 0;
     border-bottom: none;
 }
+
 
 .news__img {
     display: inline-block;
@@ -379,6 +345,7 @@ a {
 }
 
 .top-news__item {
+    width: 160px;
     margin-bottom: 20px;
 }
 
@@ -387,7 +354,9 @@ a {
 }
 
 .top-news__img {
-    width: 160px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .top-news__title{
@@ -446,7 +415,7 @@ a {
     background-color: #27273e;
     color: white;
     width: 25px;
-    height: 25px;
+    padding: 7px 0;
     border-radius: 15%;
     vertical-align: middle;
 }
