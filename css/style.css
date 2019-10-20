@@ -32,19 +32,14 @@ div, p, form, button, b, a, input, span {
 }
 
 ul {
-    display: inline-block;
     padding: 0;
     margin: 0;
-}
-
-ul li {
-    display: inline-block;
+    list-style: none;
 }
 
 p, h2 {
     margin: 0;
     padding: 0;
-    display: inline-block;
 }
 
 h5, h6 {
@@ -74,14 +69,16 @@ a {
 }
 
 .container__header{
-    padding-right: 22px;;
+    padding-right: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-family: 'GoraFree';
     font-size: 18px;
     color: #f89513;
-    display: inline-block;
     margin-left: 19px;
     text-transform: uppercase;
     width: 15%;
@@ -90,9 +87,7 @@ a {
 /* Navigation */
 .nav {
     color: white;
-    display: inline-block;
     text-align: center;
-    width: 67%;
 }
 
 .nav__item {
@@ -109,20 +104,24 @@ a {
     text-transform: uppercase;;
 }
 
+.nav__list {
+    display: flex;
+}
+
 .nav__url {
     color: white;
 }
 
 .nav__img {
-    display: inline-block;
+    
 }
 
 .nav__title:before {
     content: '';
-    display: inline-block;
     vertical-align: middle;
     background: center center / contain no-repeat;
     margin-right: 16px;
+    display: inline-block;
 }
 
 .nav__title:hover {
@@ -162,7 +161,6 @@ a {
 
 /* Contacts */
 .contacts {
-    display: inline-block;
     vertical-align: middle;
     text-align: right;
     width: 15%;
@@ -182,7 +180,6 @@ a {
 
 /* Banner */
 .main__banner {
-    display: inline-block;
     text-align: center;
     width: 100%;
     padding-top: 77px;
@@ -213,6 +210,11 @@ a {
     margin-top: 60px;
 }
 
+.features__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .features__item {
     width: 215px;
     vertical-align: top;
@@ -220,7 +222,9 @@ a {
 }
 
 .feature {
-    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .feature:last-child {
@@ -232,7 +236,6 @@ a {
     height: 70px;
     border-radius: 50%;
     background-color: #f89513;
-    display: inline-block;
     position: relative;
 }
 
@@ -266,9 +269,9 @@ a {
     height: 3px;
     border-radius: 50%;
     background-color: white;
-    display: inline-block;
     vertical-align: middle;
     margin-right: 24px;
+    display: inline-block;
 }
 
 /* news block */
@@ -281,6 +284,7 @@ a {
     margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
 }
 
 .news-content__title {
@@ -295,7 +299,6 @@ a {
     width: 73%;
     text-align: left;
     font-family: "Roboto";
-    display: inline-block;
     margin-right: 69px;
 }
 
@@ -303,6 +306,10 @@ a {
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 2px solid #f5f5f5;
+}
+
+.news__entry {
+    display: flex;
 }
 
 .news__item:last-child {
@@ -313,7 +320,6 @@ a {
 
 
 .news__img {
-    display: inline-block;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -321,13 +327,11 @@ a {
 .top-news {
     width: 20%;
     vertical-align: top;
-    display: inline-block;
 }
 
 .news {
     width: 70%;
     vertical-align: top;
-    display: inline-block;
 }
 
 .news__date {
@@ -381,12 +385,13 @@ a {
     font-family: "Roboto";
     font-size: 14px;
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .pagination__position {   
     font-weight: lighter;
     color: #656464;
-    display: inline-block;
 }
 
 .pagination__position_noactive {   
@@ -400,7 +405,11 @@ a {
 }
 
 .pagination__pager {
-    display: inline-block;
+    display: flex;
+}
+
+.pagination__list {
+    display: flex;
 }
 
 .pagination__item {
@@ -448,12 +457,18 @@ a {
     padding-left: 19px;
     padding-right: 19px;
     min-height: 74px;
+    display: flex;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_footer {
     width: 56%;
     text-align: center;
-    display: inline-block;
 }
 
 .footer__desc {
@@ -462,7 +477,6 @@ a {
     width: 24%;
     text-align: left;
     vertical-align: middle;
-    display: inline-block;
 }
 
 .footer__company{
@@ -481,8 +495,11 @@ a {
     font-weight: bold;
     font-size: 14px;
     text-align: left;
-    display: inline-block;
     vertical-align: middle;
+}
+
+.social__list {
+    display: flex;
 }
 
 .social__item {
