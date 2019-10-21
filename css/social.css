@@ -1,0 +1,37 @@
+.social {
+    width: 17%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__item {
+    background-color: #d0d0d0;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    position: relative;
+}
+
+.social__item:hover {
+    background-color: #f89513;
+}
+
+.social__pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}

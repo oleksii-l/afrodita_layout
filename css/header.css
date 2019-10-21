@@ -1,0 +1,39 @@
+.header {
+    background-color: black;   
+    padding: 11px 0;
+}
+
+.container__header{
+    padding-right: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'GoraFree';
+    font-size: 18px;
+    color: #f89513;
+    margin-left: 19px;
+    text-transform: uppercase;
+    width: 15%;
+}
+
+/* Contacts */
+.contacts {
+    vertical-align: middle;
+    text-align: right;
+    width: 15%;
+}
+
+.contacts__phone {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.contacts__work-hours {
+    color: #f89513;
+    font-size: 14px;
+    text-decoration: underline;
+}

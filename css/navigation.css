@@ -1,0 +1,70 @@
+/* Navigation */
+.nav {
+    color: white;
+    text-align: center;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__title {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__url {
+    color: white;
+}
+
+.nav__title:before {
+    content: '';
+    vertical-align: middle;
+    background: center center / contain no-repeat;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.nav__title:hover {
+    color: #f89513;
+}
+
+.nav__title_main-icon:before {
+    background-image: url(../img/main_icon.png);
+    width: 19px;
+    height: 14px;
+}
+
+
+.nav__title_feed-icon:before {
+    background-image: url(../img/feed_icon.png);
+    width: 20px;
+    height: 18px;
+}
+
+.nav__title_service-icon:before {
+    background-image: url(../img/service_icon.png);
+    width: 19px;
+    height: 14px;
+}
+
+.nav__title_main-icon:hover:before {
+    background-image: url(../img/main_icon_yellow.png);
+}
+
+.nav__title_feed-icon:hover:before {
+    background-image: url(../img/feed_icon_yellow.png);
+}
+
+.nav__title_service-icon:hover:before {
+    background-image: url(../img/service_icon_yellow.png);
+}

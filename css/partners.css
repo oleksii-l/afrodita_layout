@@ -1,0 +1,9 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.partners__item {
+    width: 33%;
+}

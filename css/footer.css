@@ -1,0 +1,38 @@
+/* footer */
+.footer {
+    color: white;
+    background-color: #131415;
+    padding-left: 19px;
+    padding-right: 19px;
+    min-height: 74px;
+    display: flex;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 56%;
+    text-align: center;
+}
+
+.footer__desc {
+    font-size: 14px;
+    font-weight: lighter;
+    width: 24%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.footer__company{
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+
+.footer__surname {
+    font-weight: bold;
+}

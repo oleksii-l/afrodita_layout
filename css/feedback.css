@@ -1,0 +1,28 @@
+.feedback {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.feedback__form {
+    width: 700px;
+    background-color: f5f5f5;
+    font-size: 14px;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback__title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.form__text {
+    width: 100%;
+}
+
+.form__btn {
+    color: white;
+    background-color: black;
+}

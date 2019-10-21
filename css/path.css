@@ -1,0 +1,34 @@
+.path__list {
+    display: flex;
+    font-weight: lighter;
+    font-style: italic;   
+    font-size: 14px;
+}
+
+.path__item {
+    margin-left: 5px;
+}
+
+.path__item_active {
+    
+}
+
+.path__item:after {
+    content: '/';
+    margin-left: 5px;
+}
+
+.path__item:last-child:after {
+    content: '';
+    margin-left: 0;
+}
+
+.path__url {
+    text-decoration: underline;
+    color: #f89513;
+}
+
+.path__item_active .path__url {
+    color: #221f1f;
+    text-decoration: none;
+}

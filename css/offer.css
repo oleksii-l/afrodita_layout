@@ -1,0 +1,21 @@
+.offer {
+    background-image: url(../img/background.png); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_offer {
+    display: flex;
+    justify-content: center;
+}
+
+.offer__desc {
+    color: white;
+    font-weight: lighter;
+    width: 642px;
+}
+
+.offer__desc span{
+    color: #f89513;
+    font-weight: bold;
+}
