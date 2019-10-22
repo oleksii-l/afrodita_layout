@@ -2,8 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 85px;
+    margin-bottom: -30px;
 }
 
 .partners__item {
     width: 33%;
+    margin-bottom: 30px;
+}
+
+.partners__img {
+    filter: grayscale(100%);
+}
+
+.partners__img:hover {
+    filter: grayscale(0%);
 }

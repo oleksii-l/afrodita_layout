@@ -21,7 +21,7 @@
                                 <div class="nav__title nav__title_main-icon">главная</div>
                             </a>
                         </li>
-                        <li class="nav__item">
+                        <li class="nav__item active">
                             <a href="#" class="nav__url">
                                 <div class="nav__title nav__title_feed-icon">отзывы</div>
                             </a>
@@ -163,19 +163,30 @@
             </div>
         </section>
         <section class="feedback">
-            <div class="container">
+            <div class="container container_feedback">
                 <div class="feedback__form">
-                    <h2 class="feedback__title">Оставить отзыв</h2>
+                    <h2 class="services__title">Оставить отзыв</h2>
                     <form action="#" method="get">
-                        <label for="name" class="form__name-label">Ваше имя</label>
-                        <input id="name" type="text" value="Алексей" class="form__name">
-                        <label for="vk" class="form__social-label">Ссылка на профиль VK</label>
-                        <input id="vk" type="text" value="vk.com/example" class="form__social">
+                        <div class="feedback__upperblock">
+                            <label for="name" class="form__name-label">Ваше имя</label>
+                            <input id="name" type="text" value="Алексей" class="form__name">
+                            <label for="vk" class="form__social-label">Ссылка на профиль VK</label>
+                            <input id="vk" type="text" value="vk.com/example" class="form__social">
+                        </div>
                         <label for="feedback" class="form__text-label">Текст отзыва</label>
                         <textarea id="feedback" cols="30" rows="10" class="form__text"></textarea>
-                        <input type="radio" id="photo" name="yes" class="form__photo"><span>да</span>
-                        <input type="radio" id="photo" name="no" class="form__photo"><span>нет</span>
-                        <input type="submit" value="отправить" class="form__btn">
+                        <div class="feedback__lowblock">
+                            <div class="photo">
+                                <label for="photo" class="photo__label">Отображать фото в отзыве?</label>
+                                <input type="radio" id="photo" name="yes" class="photo__radio"><span>да</span>
+                                <input type="radio" id="photo" name="no" class="photo__radio"><span>нет</span>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="отправить" class="button__btn">
+                            </div>
+
+                        </div>
+
                     </form>
                 </div>
             </div>

@@ -26,6 +26,10 @@
     color: white;
 }
 
+.active .nav__url {
+    color: #f89513;
+}
+
 .nav__title:before {
     content: '';
     vertical-align: middle;

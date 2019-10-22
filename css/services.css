@@ -8,6 +8,7 @@
 
 .container_services {
     width: 880px;
+    text-align: center;
 }
 
 .services__block {
@@ -35,6 +36,7 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 28px;
+    text-align: left;
 }
 
 .services__list {

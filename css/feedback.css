@@ -1,16 +1,27 @@
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+}
+
 .feedback {
     padding: 50px;
     display: flex;
     align-items: center;
 }
 
+.container_feedback {
+    display: flex;
+    justify-content: center;
+}
+
 .feedback__form {
     width: 700px;
-    background-color: f5f5f5;
     font-size: 14px;
     font-weight: lighter;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f5f5f5;
+    padding: 50px 50px;
 }
 
 .feedback__title {
@@ -22,7 +33,19 @@
     width: 100%;
 }
 
-.form__btn {
+.feedback__lowblock {
+    display: flex;
+}
+
+.button__btn {
     color: white;
     background-color: black;
+}
+
+.feedback__upperblock {
+    margin-top: 50px;
+}
+
+.photo{
+    flex: 2;
 }
