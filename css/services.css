@@ -80,12 +80,10 @@
     display: flex;
 }
 
-.service {
-
-}
 
 .service p {
-    
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 .service__title {
