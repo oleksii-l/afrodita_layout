@@ -168,10 +168,15 @@
                     <h2 class="services__title">Оставить отзыв</h2>
                     <form action="#" method="get">
                         <div class="feedback__upperblock">
-                            <label for="name" class="form__name-label">Ваше имя</label>
-                            <input id="name" type="text" value="Алексей" class="form__name">
-                            <label for="vk" class="form__social-label">Ссылка на профиль VK</label>
-                            <input id="vk" type="text" value="vk.com/example" class="form__social">
+                            <div class="feedback__name">
+                                <label for="name" class="form__name-label">Ваше имя</label>
+                                <input id="name" type="text" value="Алексей" class="form__name">
+                            </div>
+                            <div class="feedback__social">
+                                <label for="vk" class="form__social-label">Ссылка на профиль VK</label>
+                                <input id="vk" type="text" value="vk.com/example" class="form__social">
+                            </div>
+
                         </div>
                         <label for="feedback" class="form__text-label">Текст отзыва</label>
                         <textarea id="feedback" cols="30" rows="10" class="form__text"></textarea>

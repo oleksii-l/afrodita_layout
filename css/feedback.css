@@ -29,6 +29,21 @@ button, input, select, textarea {
     font-weight: bold;
 }
 
+.feedback__social, .feedback__name {
+    display: flex;
+    flex-direction: column;
+    width: calc((100%-50px) / 2);
+}
+
+.form__social, .form__name {
+    width: 269px;
+    height: 43px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #221f1f;
+    opacity: 0.5;
+}
+
 .form__text {
     width: 100%;
 }
@@ -40,10 +55,16 @@ button, input, select, textarea {
 .button__btn {
     color: white;
     background-color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 125px;
+    height: 45px;
+    border-radius: 5px;
 }
 
 .feedback__upperblock {
     margin-top: 50px;
+    display: flex;
 }
 
 .photo{
