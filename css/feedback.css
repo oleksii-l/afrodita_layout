@@ -35,6 +35,10 @@ button, input, select, textarea {
     width: calc((100%-50px) / 2);
 }
 
+.feedback__name {
+    margin-right: 20px;
+}
+
 .form__social, .form__name {
     width: 269px;
     height: 43px;
@@ -42,10 +46,20 @@ button, input, select, textarea {
     font-weight: lighter;
     color: #221f1f;
     opacity: 0.5;
+    margin-bottom: 10px;
+    
 }
 
 .form__text {
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form__name-label, 
+.form__social-label, 
+.form__text-label {
+    margin-bottom: 10px;
 }
 
 .feedback__lowblock {
@@ -56,6 +70,7 @@ button, input, select, textarea {
     color: white;
     background-color: black;
     font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
     width: 125px;
     height: 45px;
@@ -65,6 +80,21 @@ button, input, select, textarea {
 .feedback__upperblock {
     margin-top: 50px;
     display: flex;
+}
+
+.photo__radios {
+    margin-top: 10px;
+    
+}
+
+.photo__radio {
+    margin-right: 10px;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.photo__radios span {
+    margin-right: 10px;
 }
 
 .photo{
