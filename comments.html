@@ -164,34 +164,46 @@
         </section>
         <section class="feedback">
             <div class="container container_feedback">
-                <div class="feedback__form">
-                    <h2 class="services__title">Оставить отзыв</h2>
-                    <form action="#" method="get">
-                        <div class="feedback__upperblock">
-                            <div class="feedback__name">
-                                <label for="name" class="form__name-label">Ваше имя</label>
-                                <input id="name" type="text" value="Алексей" class="form__name">
-                            </div>
-                            <div class="feedback__social">
-                                <label for="vk" class="form__social-label">Ссылка на профиль VK</label>
-                                <input id="vk" type="text" value="vk.com/example" class="form__social">
-                            </div>
+                <div class="form__wrapper">
+                    <h2 class="form__title">Оставить отзыв</h2>
+                    <form action="#" method="get" class="form__content">
+                        <div class="form__row">
+                            <label class="form__label">
+                                <span class="form__subtitle">Ваше имя</span>
+                                <input id="name" type="text" placeholder="Алексей" class="form__input">
+                            </label>
 
+                            <label class="form__label">
+                                <span class="form__subtitle">Ссылка на профиль VK</span>
+                                <input id="name" type="text" placeholder="vk.com/example" class="form__input">
+                            </label>
                         </div>
-                        <label for="feedback" class="form__text-label">Текст отзыва</label>
-                        <textarea id="feedback" cols="30" rows="10" class="form__text"></textarea>
-                        <div class="feedback__lowblock">
-                            <div class="photo">
-                                <label for="photo" class="photo__label">Отображать фото в отзыве?</label>
-                                <div class="photo__radios">
-                                    <input type="radio" id="photo" name="yes" class="photo__radio" checked><span>да</span>
-                                    <input type="radio" id="photo" name="no" class="photo__radio"><span>нет</span>
+                        <div class="form__row">
+                            <label class="form__label">
+                                <span class="form__subtitle">Текст отзыва</span>
+                                <textarea id="feedback" class="form__textarea form__input"
+                                    placeholder="Мне понравилось"></textarea>
+                            </label>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__radio">
+                                <div class="form__subtitle">Отображать фото в отзыве?</div>
+                                <div class="form__radio-wrap">
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="photo" class="form__radio-input" checked>
+                                        <span class="form__radio-fake"></span>
+                                        <span class="form__radio-text">Да</span>
+                                    </label>
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="photo" class="form__radio-input">
+                                        <span class="form__radio-fake"></span>
+                                        <span class="form__radio-text">Нет</span>
+                                    </label>
                                 </div>
                             </div>
-                            <div class="button">
-                                <input type="submit" value="отправить" class="button__btn">
+                            <div class="form__button">
+                                <button type="submit" class="button">Отправить</button>
                             </div>
-
                         </div>
 
                     </form>
