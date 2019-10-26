@@ -30,6 +30,7 @@
     color: #f89513;
 }
 
+
 .nav__title:before {
     content: '';
     vertical-align: middle;
@@ -37,6 +38,7 @@
     margin-right: 16px;
     display: inline-block;
 }
+
 
 .nav__title:hover {
     color: #f89513;
@@ -70,5 +72,17 @@
 }
 
 .nav__title_service-icon:hover:before {
+    background-image: url(../img/service_icon_yellow.png);
+}
+
+.active .nav__title_main-icon:before {
+    background-image: url(../img/main_icon_yellow.png);
+}
+
+.active .nav__title_feed-icon:before {
+    background-image: url(../img/feed_icon_yellow.png);
+}
+
+.active .nav__title_service-icon:before {
     background-image: url(../img/service_icon_yellow.png);
 }

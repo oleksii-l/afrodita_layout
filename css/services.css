@@ -57,6 +57,7 @@
     width: 100%;
     height: 153px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .services__img::before{
@@ -80,6 +81,9 @@
     display: flex;
 }
 
+.service {
+    text-align: left;
+}
 
 .service p {
     font-size: 14px;
