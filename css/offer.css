@@ -12,7 +12,7 @@
 .offer__desc {
     color: white;
     font-weight: lighter;
-    width: 642px;
+    max-width: 642px;
 }
 
 .offer__desc span{

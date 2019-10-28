@@ -23,11 +23,7 @@
     transition: height 1.5s cubic-bezier(.61,.49,.03,1.32) 1s;
 }
 
-.intro__logo {
-
-}
-
-.intro__button {
+.intro__url {
     color: white;
     background-color: #131415;
     font-size: 12px;
@@ -40,7 +36,7 @@
     transition: 0.5s;
 }
 
-.intro__button:hover {
+.intro__url:hover {
     background-color: #f89513;   
 }
 

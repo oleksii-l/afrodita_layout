@@ -10,12 +10,11 @@
 
 .container_footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .logo_footer {
-    width: 56%;
     text-align: center;
 }
 
