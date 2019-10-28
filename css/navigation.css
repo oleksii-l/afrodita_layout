@@ -4,12 +4,31 @@
     text-align: center;
 }
 
+.nav--vertical {
+    color: #131415;
+}
+
+.nav--vertical .nav {
+    color: #131415;
+    text-align: center;
+}
+
+
 .nav__item {
     margin-right: 20px;
 }
 
 .nav__item:last-child {
     margin-right: 0;
+}
+
+.nav--vertical .nav__item {
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.nav--vertical .nav__item:last-child {
+    margin-bottom: 0;
 }
 
 .nav__title {
@@ -19,12 +38,17 @@
 }
 
 .nav__list {
-    display: flex;
+    
 }
 
 .nav__url {
     color: white;
 }
+
+.nav--vertical .nav__url {
+    color: #131415;
+}
+
 
 .active .nav__url {
     color: #f89513;
@@ -44,45 +68,67 @@
     color: #f89513;
 }
 
+.nav--vertical .nav__title_main-icon:before {
+    background: url(../img/icons_sprites.png) -5px -88px;
+    width: 19px;
+    height: 14px;
+}
+
+
+.nav--vertical .nav__title_feed-icon:before {
+    background: url(../img/icons_sprites.png) -5px -23px;
+    width: 20px;
+    height: 18px;
+}
+
+.nav--vertical .nav__title_service-icon:before {
+    background: url(../img/icons_sprites.png) -5px -145px;
+    width: 19px;
+    height: 14px;
+}
+
+
 .nav__title_main-icon:before {
-    background-image: url(../img/main_icon.png);
+    background: url(../img/icons_sprites.png) -5px -69px;
     width: 19px;
     height: 14px;
 }
 
 
 .nav__title_feed-icon:before {
-    background-image: url(../img/feed_icon.png);
+    background: url(../img/icons_sprites.png) -5px -0px;
     width: 20px;
     height: 18px;
 }
 
 .nav__title_service-icon:before {
-    background-image: url(../img/service_icon.png);
+    background: url(../img/icons_sprites.png) -5px -126px;
     width: 19px;
     height: 14px;
 }
 
+
+
 .nav__title_main-icon:hover:before {
-    background-image: url(../img/main_icon_yellow.png);
+    background: url(../img/icons_sprites.png) -5px -107px;
 }
 
 .nav__title_feed-icon:hover:before {
-    background-image: url(../img/feed_icon_yellow.png);
+    background: url(../img/icons_sprites.png)-5px -46px;
 }
 
 .nav__title_service-icon:hover:before {
-    background-image: url(../img/service_icon_yellow.png);
+    background: url(../img/icons_sprites.png) -5px -164px;
 }
 
 .active .nav__title_main-icon:before {
-    background-image: url(../img/main_icon_yellow.png);
+    background: url(../img/icons_sprites.png) -5px -107px;
 }
 
 .active .nav__title_feed-icon:before {
-    background-image: url(../img/feed_icon_yellow.png);
+    background: url(../img/icons_sprites.png) -5px -46px;
 }
 
 .active .nav__title_service-icon:before {
-    background-image: url(../img/service_icon_yellow.png);
+    background: url(../img/icons_sprites.png) -5px -164px;
 }

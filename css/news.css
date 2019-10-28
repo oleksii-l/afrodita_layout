@@ -2,6 +2,7 @@
 .news-content {
     color: #221f1f;
     padding-bottom: 65px;
+    flex: 1;
 }
 
 .news-content__block {

@@ -39,3 +39,13 @@
     padding-top: 77px;
     padding-bottom: 58px;
 }
+
+.sidebar {
+    width: 20%;
+    padding-top: 30px;
+}
+
+.page__container {
+    display: flex;
+    justify-content: space-between;
+}
