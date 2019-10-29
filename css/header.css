@@ -33,7 +33,7 @@
     font-weight: bold;
 }
 
-.contacts__work-hours {
+.contacts__times {
     color: #f89513;
     font-size: 14px;
     text-decoration: underline;
@@ -55,7 +55,7 @@
     transition: opacity .3s;
 }
 
-.contacts__work-hours:hover
+.contacts__times:hover
 .contacts__dropdown {
     right: 0;
     opacity: 1;
