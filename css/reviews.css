@@ -1,3 +1,13 @@
+.container__comments {
+    display: flex;
+}
+
+.main__comments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 /* reviews block */
 .reviews {
     color: #221f1f;

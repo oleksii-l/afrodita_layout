@@ -14,25 +14,6 @@
         <header class="header">
             <div class="container container__header">
                 <div class="logo">афродита</div>
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="main.html" class="nav__url">
-                                <div class="nav__title nav__title_main-icon">главная</div>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="comments.html" class="nav__url">
-                                <div class="nav__title nav__title_feed-icon">отзывы</div>
-                            </a>
-                        </li>
-                        <li class="nav__item active">
-                            <a href="#" class="nav__url">
-                                <div class="nav__title nav__title_service-icon">услуги</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
                 <div class="contacts">
                     <a href="tel:88000039210" class="contacts__phone">8(800)00-392-10</a>
                     <a href="#" class="contacts__work-hours">График работы</a>
@@ -42,134 +23,204 @@
 
         <section class="services">
             <div class="container container_services">
-                <div class="path">
-                    <ul class="path__list">
-                        <li class="path__item"><a href="/" class="path__url">Главная</a></li>
-                        <li class="path__item path__item_active"><a href="#" class="path__url">Услуги</a></li>
-                    </ul>
+                <aside class="sidebar">
+                    <nav class="nav nav--vertical">
+                        <ul class="nav__list">
+                            <li class="nav__item active">
+                                <a href="#" class="nav__url">
+                                    <div class="nav__title nav__title_main-icon">главная</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="comments.html" class="nav__url">
+                                    <div class="nav__title nav__title_feed-icon">отзывы</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="services.html" class="nav__url">
+                                    <div class="nav__title nav__title_service-icon">услуги</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="partners">
+                            <h2 class="services__title">партнеры</h2>
+                            <ul class="partners__list">
+                                <li class="partners__item">
+                                    <img src="img/logo-1.png" alt="" class="partners__img">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="img/logo-2.png" alt="" class="partners__img">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="img/logo-3.png" alt="" class="partners__img">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="img/logo-4.png" alt="" class="partners__img">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="img/logo-5.png" alt="" class="partners__img">
+                                </li>
+                                <li class="partners__item">
+                                    <img src="img/logo-6.png" alt="" class="partners__img">
+                                </li>
+                            </ul>
+                    </div>
+
+                    
+
+                    <div class="social">
+                        <div class="social__title">Наши социальные сети</div>
+                        <ul class="social__list">
+                            <li class="social__item social__item_yellow">
+                                <a href="#" class="social__link">
+                                    <img src="img/fb.png" alt="" class="social__pic">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="img/vk.png" alt="" class="social__pic">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="img/google.png" alt="" class="social__pic">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="img/twitter.png" alt="" class="social__pic">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <img src="img/mail.png" alt="" class="social__pic">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </aside>
+                <div class="content">
+                    <div class="path">
+                        <ul class="path__list">
+                            <li class="path__item"><a href="/" class="path__url">Главная</a></li>
+                            <li class="path__item path__item_active"><a href="#" class="path__url">Услуги</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="services__title">услуги</h2>
+                    <div class="services__block">
+                        <ul class="services__list">
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">Фитнес</div>
+                                    <img src="img/sports.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Фитнес</h6>
+                                    <p>Фитнес - это основное направление в нашем центре. Открыто 6 залов для занятий с
+                                        7-00
+                                        до 22-00. Работают 24 фитнес-тренера, есть авторские и классические программы
+                                        для
+                                        похудения, восстановления фигуры, здоровья и молодости. Занятия с персональным
+                                        тренером помогут достичь максимального результата в сжатые сроки.</p>
+                                </div>
+                            </li>
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">диетолог</div>
+                                    <img src="img/apple.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Личный диетолог</h6>
+                                    <p>Поможет вам получить более заметный результат от тренировок. Создаст меню на
+                                        каждый
+                                        день, с учетом вкусовых предпочтений и особенностей здоровья. Проанализирует
+                                        текущий
+                                        рацион и укажет на ошибки. Поможет сделать питание разнообразным и полезным,
+                                        объяснит доступно о важной роли тех или иных витаминов и микроэлементов.</p>
+                                </div>
+                            </li>
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">Йога</div>
+                                    <img src="img/yoga.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Йога</h6>
+                                    <p>Гармония души и тела – это базовая составляющая здоровья и красоты. Наш зал для
+                                        занятий йоги открыт для людей всех возрастов без ограничений. Отдельным
+                                        направлением
+                                        является йога для беременных с более щадящей программой. Йога тренеры имеют
+                                        сертификаты и являются победителями международных конкурсов..</p>
+                                </div>
+                            </li>
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">Петли ТРХ</div>
+                                    <img src="img/trx.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Петли ТРХ</h6>
+                                    <p>Новое направление для нашего центра, которое стало одним из самых популярных и
+                                        востребованных. Программа TRX Suspension Training создана для людей с начальным
+                                        уровнем подготовки и позволяет эффективно тренироваться, используя нарастающую
+                                        нагрузку, которая зависит от силы и массы человека. Петли усиливают ловкость,
+                                        гибкость и подвижность. В нашем центре проводятся индивидуальные и групповые
+                                        тренировки ТРХ.</p>
+                                </div>
+                            </li>
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">Кроссфит</div>
+                                    <img src="img/women.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Кроссфит</h6>
+                                    <p>Авторская запатентованная программа тренировки, включающая элементы тяжелой
+                                        атлетики,
+                                        занятий с гирями, гимнастики. Данная программа безупречно подходит для
+                                        ежедневных
+                                        тренировок людям с сидячим образом жизни. Преимущество кроссфита в том, что он
+                                        одинаково хорошо воспринимается и мужчинами, и женщинами и подходит для семейных
+                                        групповых тренировок. Высокая эффективности программы обусловлена чуткими
+                                        рекомендациями наших сертифицированных тренеров.</p>
+                                </div>
+                            </li>
+                            <li class="services__item">
+
+                                <div class="services__img">
+                                    <div class="services__name">Бассейн</div>
+                                    <img src="img/swimming.jpg" alt="" class="service__pic">
+                                </div>
+                                <div class="service">
+                                    <h6 class="service__title">Бассейн</h6>
+                                    <p>Большой 50 метровый бассейн, разделенный на 6 дорожек, позволит заниматься
+                                        индивидуальным плаванием или аквааэробикой. Занятия проводит сертифицированный
+                                        тренер – Ситник Ирина Валерьевна, известная своими успехами в школе подготовки
+                                        олимпийского резерва. В бассейне есть место для занятий с детьми (ежедневно с
+                                        12-00
+                                        до 14-00), а также проводится аквааэробика для беременных каждый день в 10-00 и
+                                        19-00.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-                <h2 class="services__title">услуги</h2>
-                <div class="services__block">
-                    <ul class="services__list">
-                        <li class="services__item">
 
-                            <div class="services__img">
-                                <div class="services__name">Фитнес</div>
-                                <img src="img/sports.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Фитнес</h6>
-                                <p>Фитнес - это основное направление в нашем центре. Открыто 6 залов для занятий с 7-00
-                                    до 22-00. Работают 24 фитнес-тренера, есть авторские и классические программы для
-                                    похудения, восстановления фигуры, здоровья и молодости. Занятия с персональным
-                                    тренером помогут достичь максимального результата в сжатые сроки.</p>
-                            </div>
-                        </li>
-                        <li class="services__item">
 
-                            <div class="services__img">
-                                <div class="services__name">диетолог</div>
-                                <img src="img/apple.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Личный диетолог</h6>
-                                <p>Поможет вам получить более заметный результат от тренировок. Создаст меню на каждый
-                                    день, с учетом вкусовых предпочтений и особенностей здоровья. Проанализирует текущий
-                                    рацион и укажет на ошибки. Поможет сделать питание разнообразным и полезным,
-                                    объяснит доступно о важной роли тех или иных витаминов и микроэлементов.</p>
-                            </div>
-                        </li>
-                        <li class="services__item">
-
-                            <div class="services__img">
-                                <div class="services__name">Йога</div>
-                                <img src="img/yoga.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Йога</h6>
-                                <p>Гармония души и тела – это базовая составляющая здоровья и красоты. Наш зал для
-                                    занятий йоги открыт для людей всех возрастов без ограничений. Отдельным направлением
-                                    является йога для беременных с более щадящей программой. Йога тренеры имеют
-                                    сертификаты и являются победителями международных конкурсов..</p>
-                            </div>
-                        </li>
-                        <li class="services__item">
-
-                            <div class="services__img">
-                                <div class="services__name">Петли ТРХ</div>
-                                <img src="img/trx.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Петли ТРХ</h6>
-                                <p>Новое направление для нашего центра, которое стало одним из самых популярных и
-                                    востребованных. Программа TRX Suspension Training создана для людей с начальным
-                                    уровнем подготовки и позволяет эффективно тренироваться, используя нарастающую
-                                    нагрузку, которая зависит от силы и массы человека. Петли усиливают ловкость,
-                                    гибкость и подвижность. В нашем центре проводятся индивидуальные и групповые
-                                    тренировки ТРХ.</p>
-                            </div>
-                        </li>
-                        <li class="services__item">
-
-                            <div class="services__img">
-                                <div class="services__name">Кроссфит</div>
-                                <img src="img/women.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Кроссфит</h6>
-                                <p>Авторская запатентованная программа тренировки, включающая элементы тяжелой атлетики,
-                                    занятий с гирями, гимнастики. Данная программа безупречно подходит для ежедневных
-                                    тренировок людям с сидячим образом жизни. Преимущество кроссфита в том, что он
-                                    одинаково хорошо воспринимается и мужчинами, и женщинами и подходит для семейных
-                                    групповых тренировок. Высокая эффективности программы обусловлена чуткими
-                                    рекомендациями наших сертифицированных тренеров.</p>
-                            </div>
-                        </li>
-                        <li class="services__item">
-
-                            <div class="services__img">
-                                <div class="services__name">Бассейн</div>
-                                <img src="img/swimming.jpg" alt="" class="service__pic">
-                            </div>
-                            <div class="service">
-                                <h6 class="service__title">Бассейн</h6>
-                                <p>Большой 50 метровый бассейн, разделенный на 6 дорожек, позволит заниматься
-                                    индивидуальным плаванием или аквааэробикой. Занятия проводит сертифицированный
-                                    тренер – Ситник Ирина Валерьевна, известная своими успехами в школе подготовки
-                                    олимпийского резерва. В бассейне есть место для занятий с детьми (ежедневно с 12-00
-                                    до 14-00), а также проводится аквааэробика для беременных каждый день в 10-00 и
-                                    19-00.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <h2 class="services__title">партнеры</h2>
-                <ul class="partners__list">
-                    <li class="partners__item">
-                        <img src="img/logo-1.png" alt="" class="partners__img">
-                    </li>
-                    <li class="partners__item">
-                        <img src="img/logo-2.png" alt="" class="partners__img">
-                    </li>
-                    <li class="partners__item">
-                        <img src="img/logo-3.png" alt="" class="partners__img">
-                    </li>
-                    <li class="partners__item">
-                        <img src="img/logo-4.png" alt="" class="partners__img">
-                    </li>
-                    <li class="partners__item">
-                        <img src="img/logo-5.png" alt="" class="partners__img">
-                    </li>
-                    <li class="partners__item">
-                        <img src="img/logo-6.png" alt="" class="partners__img">
-                    </li>
-                </ul>
 
             </div>
-
+        </section>
     </div>
-    </section>
+
     <footer class="footer">
         <div class="container container_footer">
             <div class="footer__desc">
@@ -179,36 +230,6 @@
                 </div>
             </div>
             <div class="logo logo_footer">афродита</div>
-            <div class="social">
-                <div class="social__title">Наши социальные сети</div>
-                <ul class="social__list">
-                    <li class="social__item social__item_yellow">
-                        <a href="#" class="social__link">
-                            <img src="img/fb.png" alt="" class="social__pic">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link">
-                            <img src="img/vk.png" alt="" class="social__pic">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link">
-                            <img src="img/google.png" alt="" class="social__pic">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link">
-                            <img src="img/twitter.png" alt="" class="social__pic">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="#" class="social__link">
-                            <img src="img/mail.png" alt="" class="social__pic">
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
 
     </footer>
