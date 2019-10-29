@@ -34,10 +34,13 @@
 }
 
 .contacts__times {
+    position: relative;
+}
+
+.contacts__work-hours {
     color: #f89513;
     font-size: 14px;
     text-decoration: underline;
-    position: relative;
 }
 
 .contacts__dropdown {
