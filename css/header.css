@@ -36,6 +36,20 @@
 
 .contacts__times {
     position: relative;
+    padding: 17px 20px;
+}
+
+.contacts__work {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f89513;
+}
+
+.contacts__dinner {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #221f1f;
+    margin-top: 13px;
 }
 
 .contacts__work-hours {
@@ -75,6 +89,13 @@
     width: 0;
     height: 0;
 }
+
+.contacts__dropdown:after {
+    left: 0;
+    right: 0;
+    height: 23px;
+    top: -22px;
+  }
 
 .contacts__dropdown:before, .contacts__dropdown:after {
     content: "";
