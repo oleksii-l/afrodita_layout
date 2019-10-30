@@ -1,26 +1,47 @@
 .partners {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    padding: 26px 55px;
+    margin-top: 70px;
+}
+
+.partners__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 .partners__list {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 85px;
-    margin-bottom: -30px;
+    margin-top: 51px;
 }
 
 .partners__item {
-    width: 33%;
-    margin-bottom: 30px;
+    margin-bottom: 41px;
 }
 
 .partners__img {
     filter: grayscale(100%);
-    width: 67px;
+    width: 162px;
+}
+
+.partners__item:nth-child(1)
+.partners__img {
+    width: 64px;
+}
+
+.partners__item:nth-child(2)
+.partners__img {
+    width: 45px;
+}
+
+.partners__item:nth-child(5)
+.partners__img {
+    width: 126px;
 }
 
 .partners__img:hover {
