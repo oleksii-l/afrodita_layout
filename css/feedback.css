@@ -4,7 +4,6 @@ button, input, select, textarea {
 }
 
 .feedback {
-    padding: 50px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -122,6 +121,7 @@ button, input, select, textarea {
 
 .form__text-label {
     margin-right: 20px;  
+    cursor: pointer;
 }
 
 .form__text-label:last-child {
@@ -167,8 +167,13 @@ button, input, select, textarea {
     margin-left: 5px;
 }
 
+.form__radio-input:checked ~ .form__radio-text {
+    color: #f89513;
+}
+
 .form__radio-label {
     margin-right: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }

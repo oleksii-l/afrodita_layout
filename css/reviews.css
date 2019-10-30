@@ -7,14 +7,14 @@
     display: flex;
     flex-direction: column;
     width: 75%;
-    padding-left: 16px;
+    margin-left: 16px;
 }
 
 /* reviews block */
 .reviews {
     color: #221f1f;
     padding-top: 46px;
-    padding-bottom: 65px;
+    margin-bottom: 65px;
     vertical-align: top;    
 }
 

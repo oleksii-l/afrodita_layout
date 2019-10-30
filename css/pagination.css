@@ -1,12 +1,11 @@
 .pagination{
-    width: 100%;
     text-align: center;
     font-family: "Roboto";
     font-size: 14px;
     margin-top: 67px;
     display: flex;
     align-items: center;
-    margin-left: 218px;
+    align-self: center;
 }
 
 .pagination__position {   
@@ -19,7 +18,8 @@
     color: #656464;
 }
 
-.pagination__btn-prev{
+.pagination__btn-prev,
+.pagination__btn-next{
     
     font-size: 14px;
 }
@@ -46,6 +46,10 @@
     margin-right: 0;
 }
 
+.pagination__item a {
+    text-decoration: none;
+}
+
 .pagination__item_active {
     background-color: #27273e;
     color: white;
@@ -60,6 +64,8 @@
     font-size: 14px;
     font-weight: bold;
     margin-left: 10px;
+    text-decoration: none;
+    color: #221f1f;
 }
 
 .pagination__url {
