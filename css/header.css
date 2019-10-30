@@ -1,10 +1,11 @@
 .header {
     background-color: black;   
-    padding: 11px 0;
+    display: flex;
+    min-height: 78px;
 }
 
 .container__header{
-    padding-right: 22px;
+    padding: 0 20px 0 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,9 +15,9 @@
     font-family: 'GoraFree';
     font-size: 18px;
     color: #f89513;
-    margin-left: 19px;
     text-transform: uppercase;
     width: 15%;
+    letter-spacing: 0.1em;
 }
 
 /* Contacts */
@@ -24,7 +25,7 @@
     display: inline-block;
     vertical-align: middle;
     text-align: right;
-    width: 15%;
+    width: 16%;
 }
 
 .contacts__phone {
@@ -40,6 +41,7 @@
 .contacts__work-hours {
     color: #f89513;
     font-size: 14px;
+    font-weight: bold;
     text-decoration: underline;
 }
 

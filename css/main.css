@@ -34,15 +34,17 @@
 
 /* Banner */
 .main__banner {
-    text-align: center;
     width: 100%;
-    padding-top: 77px;
-    padding-bottom: 58px;
+    padding-left: 34px;
 }
 
 .sidebar {
-    width: 20%;
-    padding-top: 30px;
+    width: 295px;
+    padding-top: 39px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .page__container {

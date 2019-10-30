@@ -18,13 +18,8 @@
     margin-right: 20px;
 }
 
-.nav__item:last-child {
-    margin-right: 0;
-}
-
 .nav--vertical .nav__item {
-    margin-bottom: 20px;
-    margin-right: 0;
+    margin-bottom: 25px;
 }
 
 .nav--vertical .nav__item:last-child {
